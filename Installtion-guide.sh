@@ -10,12 +10,13 @@ git clone https://github.com/NAGA222/Custom_K-Master_-_Worker_Nodes_installtion_
 #2: Run common.sh in all master and worker nodes
 
 cd Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm
+chmod 700 /scripts/common.sh
 ./scripts/common.sh
 
 
 #3: Run master.sh in master node
 #note: make the PUBLIC_IP_ACCESS="true" in master.sh 
-
+chmod 700 /scripts/master.sh
 ./scripts/master.sh
 
 
