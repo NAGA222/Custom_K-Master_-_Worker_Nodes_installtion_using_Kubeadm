@@ -40,7 +40,7 @@ kubectl cluster-info
 
 #Optional: If you dont want worker nodes and schedule apps in master node use the following cmd
 
-kubectl taint nodes –all node-role.kubernetes.io/control-plane-
+kubectl taint nodes --all node-role.kubernetes.io/control-plane-
 
 
 #8: If didn't stored the token cmd get the token 
