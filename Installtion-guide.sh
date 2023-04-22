@@ -4,12 +4,12 @@
 
 #1: Clone git repo
 
-git clone url
+git clone https://github.com/NAGA222/Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm
 
 
 #2: Run common.sh in all master and worker nodes
 
-cd rep
+cd Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm
 ./scripts/common.sh
 
 
@@ -61,7 +61,7 @@ kubectl get nodes
 kubectl top nodes
 
 #Install using following cmd
-kubectl apply -f https://raw.githubusercontent.com/techiescamp/kubeadm-scripts/main/manifests/metrics-server.yaml
+kubectl apply -f https://github.com/NAGA222/Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm/blob/master/manifests/metrics-server.yaml
 
 #verify the kubernetes metrics 
 kubectl top nodes
@@ -70,8 +70,7 @@ kubectl top nodes
 kubectl top pod -n kube-system
 
 #12: Verify the workernodes working or not by deploying sample ngnix deployment
-kubectl apply -f https://raw.githubusercontent.com/techiescamp/kubeadm-scripts/main/manifests/sample-app.yaml
-
+kubectl apply -f https://github.com/NAGA222/Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm/blob/master/manifests/sample-app.yaml
 #verify the output 
 #public ip of worker node:32000
 
