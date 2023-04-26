@@ -4,7 +4,7 @@
 
 #1: Clone git repo
 
-git clone https://github.com/NAGA222/Custom_K-Master_-_Worker_Nodes_installtion_using_Kubeadm
+git clone https://github.com/NAGA222/K8S_Master-Worker_installtion_using_KudeAdm.git
 
 
 #2: Run common.sh in all master and worker nodes
